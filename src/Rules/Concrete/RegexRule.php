@@ -22,6 +22,10 @@ class RegexRule extends AbstractRule
      */
     public function passes($value)
     {
+        if (!is_string($value) && !is_numeric($value)) {
+            return false;
+        }
+
         return preg_match($this->pattern, $value);
     }
 }

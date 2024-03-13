@@ -35,7 +35,7 @@ try {
 
 # Installation
 
-`composer require laurynasgadl/php-validator`
+`composer require hostinger/php-validator`
 
 # Documentation
 ## Rules

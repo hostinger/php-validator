@@ -2,8 +2,8 @@
 
 namespace Luur\Validator;
 
-use Luur\Exceptions\BranchNotFoundException;
-use Luur\Travers;
+use Hostinger\Travers\Exceptions\BranchNotFoundException;
+use Hostinger\Travers\Travers;
 
 class Context implements ContextInterface
 {

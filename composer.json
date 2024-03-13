@@ -1,26 +1,20 @@
 {
-    "name": "laurynasgadl/php-validator",
-    "type": "library",
+    "name": "hostinger/php-validator",
     "description": "Array value validation library for PHP",
-    "keywords": [
-        "php",
-        "array",
-        "validation",
-        "validator"
-    ],
-    "license": "MIT",
-    "authors": [
+    "type": "library",
+    "repositories":[
         {
-            "name": "Laurynas Gadliauskas",
-            "homepage": "https://github.com/laurynasgadl"
+            "type": "vcs",
+            "url": "git@github.com:hostinger/travers.git"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": ">=8.0",
-        "laurynasgadl/travers": "^2.0"
+        "hostinger/travers": "^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.0"
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -34,10 +28,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
     }
 }
